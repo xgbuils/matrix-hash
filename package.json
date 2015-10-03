@@ -4,7 +4,7 @@
   "description": "multidimensional implementation of hash",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
