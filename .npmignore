@@ -1,0 +1,8 @@
+node_modules
+test
+gulpfile.js
+.gitignore
+.eslintrc
+.travis.yml
+*~
+*.log

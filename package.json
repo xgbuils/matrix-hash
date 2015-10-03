@@ -1,0 +1,31 @@
+{
+  "name": "matrix-hash",
+  "version": "0.1.0",
+  "description": "multidimensional implementation of hash",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgbuils/matrix-hash.git"
+  },
+  "keywords": [
+    "multidimensional",
+    "hash",
+    "matrix",
+    "array"
+  ],
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgbuils/matrix-hash/issues"
+  },
+  "homepage": "https://github.com/xgbuils/matrix-hash#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-mocha": "^2.1.3"
+  }
+}
