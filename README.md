@@ -17,15 +17,18 @@ var MatrixHash = require('matrix-hash')
 
 var hash = new MatrixHash(3)
 
+hash.dimension // 3
+hash.size // 0
+
 hash.set([1, 0, 0], 'red')
 hash.set([0, 1, 0], 'green')
 hash.set([0, 0, 1], 'blue')
 hash.set([1, 1, 0], 'yellow')
 hash.set([0, 1, 1], 'turquoise')
 hash.set([1, 0, 1], 'fuchsia')
-
 hash.size // 6
-hash.get([0, 1, 0]) // green
+
+hash.get([0, 1, 0]) // 'green'
 hash.has([0, 0, 1]) // true
 hash.has([1, 1, 1]) // false
 
