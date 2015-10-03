@@ -77,7 +77,7 @@ Adds a new element with specified `keys` and `value` to a MatrixHash object.
 
 Returns a specified element from a MatrixHash object.
 
-**Time complexity:** *O(log(k))* such that `k === this.dimension`
+**Time complexity:** *O(k)* such that `k === this.dimension`
 
 ### .has(keys)
 - Type: Function
@@ -85,7 +85,7 @@ Returns a specified element from a MatrixHash object.
 
 Returns a boolean indicating whether an element with the specified `keys` exists or not.
 
-**Time complexity:** *O(log(k))* such that `k === this.dimension`
+**Time complexity:** *O(k)* such that `k === this.dimension`
 
 ## FAQ
 
